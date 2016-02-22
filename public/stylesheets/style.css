@@ -1,3 +1,38 @@
-/*body {
-  background: gray;
-}*/
+/*body {*/
+/*  background: gray;*/
+/*}*/
+.review {
+    padding-bottom: 5px;
+}
+
+.review-container {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.review-header {
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.review-author {
+    margin: 0 5px;
+}
+
+.review-timestamp {
+    color: #ccc;
+}
+
+/*.new-review-button {*/
+/*    margin-bottom: 4px;*/
+/*}*/
+
+.reviews-panel-heading {
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+.new-review-form {
+    margin: 0 auto ;
+    width: 50%;
+}

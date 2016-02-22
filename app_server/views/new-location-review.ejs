@@ -1,0 +1,28 @@
+<% include ./partials/header %>
+
+<div class="container">
+    <div class="row new-review-form">
+    <form action="GET" role="form">
+        <div class="form-group">
+            <label class="control-label">title</label>
+            <input class="form-control" name="title"/>
+        </div>
+        <div class="form-group">
+            <select class="form-control" name="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="reviewText" rows="10" spellcheck="true"></textarea>
+        </div>
+        <button class="btn btn-default" type="submit">submit</button>
+    </form>
+    </div>
+
+</div>
+
+<% include ./partials/footer %>

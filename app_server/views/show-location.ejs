@@ -1,5 +1,108 @@
 <% include ./partials/header.ejs %>
 
-<p>Show location</p>
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>StarDucks</h1>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-9">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <p>rating
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p>2123 High street Jals, London, MW3 8PS</p>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h2 class="panel-title">
+                                    Opening hours
+                                </h2>
+                                <div class="panel-body">
+                                    <p>Mon - Fri: 07:00 - 18:00</p>
+                                    <p>Sat - Sun: 11:00 - 18:00</p>
+                                    <p>Bank Holidays: 11:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                   <h2>Facilities</h2>
+                                </div>
+                                <div class="panel-body">
+                                    <span class="label label-success">
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                    </span>&nbsp Food &nbsp
+                                    <span class="label label-success">
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                    </span>&nbsp Hot Drinks &nbsp
+                                    <span class="label label-success">
+                                        <span class="glyphicon glyphicon-ok"></span>
+                                    </span>&nbsp Premium Wifi &nbsp
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 location-map">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <div>
+                                        <h3>Location Map</h3>
+                                    </div>
+                                </div>
+                               
+                                <div class="panel-body">
+                                    <img class="img-responsive img-rounded" src="https://maps.googleapis.com/maps/api/staticmap?center=51.455041,-0.9690884&zoom=17&size=400x350&sensor=false&markers=51.455041,-0.9690884&scale=2" />
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-default review-panel">
+                        <div class="panel-heading reviews-panel-heading">
+                            <a class="btn-sm btn-info pull-right new-review-button" href="/locations/location/review/new">Add review</a>
+                            <h2 class="panel-title">Cust review</h2>
+                        </div>
+                        <div class="panel-body review-container">
+                            <div class="row">
+                                <div class="review">
+                                    <div class="well well-sr review-header">
+                                        <span>Rating
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                            <span class="glyphicon glyphicon-star"></span>
+                                        </span>
+                                        <span class="review-author">Austin Gallow</span>
+                                        <span class="review-timestamp">10 July 2005</span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                     <p>Excellent place to sit and chill</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-3">
+                <p>This cafe is located in the nice Alley way. View is amazing!</p>
+            </div>
+        </div>
+    
+</div>
 <% include ./partials/footer.ejs %>

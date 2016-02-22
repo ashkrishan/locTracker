@@ -11,7 +11,7 @@ module.exports.showLocation = function(req, res) {
 
 //Create new location
 module.exports.newLocationReview = function(req, res) {
-    res.render('new-location');
+    res.render('new-location-review');
 }; 
 
 //About
